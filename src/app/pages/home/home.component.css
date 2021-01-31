@@ -1,0 +1,10 @@
+.grid{
+    display: grid;
+}
+
+.list-inline{
+    padding-left: 0;
+}
+.info{
+size:2em;
+}
