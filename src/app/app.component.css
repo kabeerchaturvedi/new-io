@@ -1,6 +1,12 @@
+
+  * {
+    box-sizing: border-box;
+}
+
 .body{
   font-family: "Poppins", sans-serif;
   margin:0px;
+  display: flex;
 
 }
 .container {
@@ -11,15 +17,16 @@
 }
 
 .navbar {
-  width: 20%;
-  height: 100%;
-   margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  overflow: auto;
-}
+  margin: 0;
+   padding: 0;
+   width: 150px;
+   height: 100%;
+   
+   background-color: #ffffff;
+   overflow: auto;
+ }
 
-.navbar .a {
+.navbar a {
   display: block;
   color: black;
   padding: 16px;
