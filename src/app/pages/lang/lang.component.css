@@ -1,11 +1,16 @@
 * {
     box-sizing: border-box;
+    
+  }
+  .container{
+    width:100%;
   }
   .column {
     float: left;
-    width: 15%;
+    width: 25%;
     padding: 10px;
     height: 300px; 
+    flex-grow: 1;
   }
   
   
