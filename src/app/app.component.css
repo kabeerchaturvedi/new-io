@@ -14,7 +14,8 @@
 .container {
   height: 100%;
   display: flex;
-  min-width:1280px important;
+ 
+  min-width:1280px !important;
   width:100%;
   
 }
@@ -26,6 +27,8 @@
    height: 100%;
     background-color: #ffffff;
    overflow: auto;
+   flex-direction:column;
+   justify-content: space-between;
  }
 
 .navbar a {
