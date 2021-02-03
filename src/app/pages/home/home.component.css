@@ -1,10 +1,12 @@
+
 .grid{
     display: grid;
 }
 
 
-.lists{
-    height:25px;
+
+.kb-lists{
+    height:100px;
 }
 .list-inline{
     padding-left: 0;

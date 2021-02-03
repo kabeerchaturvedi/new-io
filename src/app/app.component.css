@@ -11,8 +11,8 @@
   
 
 }
-.container {
-  height: 100%;
+.kb-container {
+  height: 100vh;
   display: flex;
  
   min-width:1280px !important;
@@ -24,16 +24,17 @@
   margin: 0;
    padding: 0;
    width: 150px;
-   height: 100%;
-    background-color: #ffffff;
+   height: 100vh;
+    background-color: #000000	;
    overflow: auto;
+   display: flex;
    flex-direction:column;
    justify-content: space-between;
  }
 
 .navbar a {
   display: block;
-  color: black;
+  color: white;
   padding: 16px;
   text-decoration: none;
 }
@@ -44,4 +45,9 @@
   overflow: auto;
   scroll-behavior: smooth;
   flex-grow:1;
+}
+
+.home{
+  background-color: #F8F9FA;
+
 }
