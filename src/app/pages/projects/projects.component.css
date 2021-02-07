@@ -1,3 +1,18 @@
-.container{
-    display:inline-block;
+* {
+    box-sizing: border-box;
+  }
+  .mb{
+      width: 100%;
+      display: flex;
+  }
+.kb-container{
+width: 100%;
+height:100vh;
+
+}
+.mdiv{
+    width:30;
+}
+.sdiv{
+    flex-grow: 1;
 }

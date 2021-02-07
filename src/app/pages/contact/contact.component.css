@@ -2,6 +2,9 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
+  .kb-container{
+    display: flex;
+  }
 .column {
     float: left;
     width: 50%;
@@ -13,3 +16,16 @@
     display: table;
     clear: both;
   }  
+  
+  .kb-form{
+    width: 50%;
+    float: left;
+    
+  }
+  .info{
+    background-image: url("/assests/MB.jpg");
+  }
+
+  .kb-about{
+    flex-grow: 1;
+  }
