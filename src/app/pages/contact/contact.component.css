@@ -16,14 +16,9 @@
     display: table;
     clear: both;
   }  
-  
   .kb-form{
     width: 50%;
     float: left;
-    
-  }
-  .info{
-    background-image: url("/assests/MB.jpg");
   }
 
   .kb-about{

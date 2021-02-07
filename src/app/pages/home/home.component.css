@@ -20,6 +20,9 @@ size:2em;
 
 .wrapper{
     display: inline-flex;
+    position: relative;
+    top:100px;
+    left:120px;
   }
   .wrapper .icon{
     margin: 0 20px;
