@@ -1,11 +1,26 @@
 
-.grid{
-    display: grid;
+.kb-container{
+   display: flex;
+  height:100%;
+  width: 100%;
+ 
 }
 
-.fcon{
-    text-align: center;
+.profile{
+
+text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+.kb-desc{
+  text-align: center;
+}
+
+
+/* .fcon{
+    text-align: center;
+} */
 
 .kb-lists{
     height:100px;
@@ -21,8 +36,7 @@ size:2em;
 .wrapper{
     display: inline-flex;
     position: relative;
-    top:100px;
-    left:120px;
+    
   }
   .wrapper .icon{
     margin: 0 20px;

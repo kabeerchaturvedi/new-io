@@ -1,9 +1,30 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  outline: none !important;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+.kb-container{
+  display: block;
+  padding-top: 70px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+}
+.kb-cola{
+  height:100%;
+}
+.kb-colb{
+  height:100%;
+  padding: 25px;
 }
 
-
 .timeline {
+  position: relative;
+  top:25px;
   background-color: #ffffff;
   border-radius: 5px;
   padding: 30px;
