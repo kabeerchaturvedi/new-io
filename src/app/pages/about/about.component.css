@@ -1,30 +1,32 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  /* margin: 0;
   padding: 0;
   font-family: inherit;
   outline: none !important;
   list-style: none !important;
-  text-decoration: none !important;
+  text-decoration: none !important; */
 }
 .kb-container{
-  display: block;
+  display: flex;
+ 
   padding-top: 70px;
     padding-right: 40px;
     padding-bottom: 0px;
     padding-left: 40px;
 }
-.kb-cola{
-  height:100vh;
+
+.center{
+  text-align: center;
+  justify-content: center;
 }
 .kb-colb{
-  height:100vh;
   padding: 25px;
 }
 
 .timeline {
   min-height: 450px;
-  padding:0 25 25 25px;
+  padding:0 25px 25px 25px;
   position: relative;
   top:25px;
   background-color: #ffffff;

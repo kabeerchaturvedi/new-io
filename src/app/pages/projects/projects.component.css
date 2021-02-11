@@ -8,28 +8,14 @@ width: 100%;
 
 
 }
-.kb-row{
+.card{
 display: flex;
+flex-direction: row;
 
- 
-  }
-  
-  .leftcol {
-    float: left;
-    width: auto;
-    padding: 10px;
-   
-    
 
- 
-  }
-
-.rightcol{
-    flex-grow: 1;
-    float:right;
-    
-    
 }
+  
+
 
 
   .leftcol .card .responsive-image{

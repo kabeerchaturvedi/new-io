@@ -1,17 +1,23 @@
 * {
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    
+  }
+  .center{
+    text-align: center;
+    justify-content: center;
   }
   .kb-container{
     display: flex;
+    text-align: center;
+    justify-content: center;
   }
 
-
-  .kb-about{
-    widows: 50%;
-    float: right;
+  .info{
+    width: 50%;
+    
   }
   .wrapper{
+    flex-grow: 1;
     display: inline-flex;
     text-align: center;
     justify-content: center;
