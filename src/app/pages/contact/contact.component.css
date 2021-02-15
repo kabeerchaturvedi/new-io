@@ -7,17 +7,20 @@
     justify-content: center;
   }
   .kb-container{
+    width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
   }
-
+.wp{
+  position:fixed;
+  color:#00FF00;
+}
   .info{
-    width: 50%;
+    width: 100%;
     
   }
   .wrapper{
-    flex-grow: 1;
     display: inline-flex;
     text-align: center;
     justify-content: center;
@@ -117,4 +120,7 @@
   .wrapper .linkedin:hover .tooltip,
   .wrapper .linkedin:hover .tooltip:before{
     background: #DE463B;
+  }
+  .page-footer{
+    background:#020202;
   }

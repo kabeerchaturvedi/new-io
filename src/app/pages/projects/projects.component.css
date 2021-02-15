@@ -5,7 +5,10 @@
   }
 .kb-container{
 width: 100%;
-
+padding-top: 15px;
+padding-right: 40px;
+padding-bottom: 0px;
+padding-left: 40px;
 
 }
 .card{
@@ -16,7 +19,9 @@ flex-direction: row;
 }
   
 
-
+.kb-row{
+  padding-top: 15px;
+}
 
   .leftcol .card .responsive-image{
     

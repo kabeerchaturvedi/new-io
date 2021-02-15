@@ -10,7 +10,7 @@
 .kb-container{
   display: flex;
  
-  padding-top: 70px;
+  padding-top: 15px;
     padding-right: 40px;
     padding-bottom: 0px;
     padding-left: 40px;
@@ -19,6 +19,7 @@
 .center{
   text-align: center;
   justify-content: center;
+  padding-top:25px;
 }
 .kb-colb{
   padding: 25px;
