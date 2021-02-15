@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
-    
+
   }
   .kb-container{
     width:100%;
     align-items: center;
     justify-content: center;
     display: inline-block;
-   
+
   }
 .center{
   align-items: center;
@@ -22,12 +22,12 @@
     width: 25%;
     padding: 10px;
     flex-gkb-row: 1;
-    
+
   /* padding: 10px; */
- 
+
   }
   .column .card .responsive-image{
-    
+
     position:center;
     width: auto;
     height: 150px;
@@ -38,7 +38,7 @@
 
 
   .column .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 1s;
   }
   .card-content{
@@ -49,8 +49,8 @@
     display: table;
     clear: both;
   }
-  
-  
+
+
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;

@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    
+
   }
   .center{
     text-align: center;
@@ -11,20 +11,32 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
   }
 .wp{
   position:fixed;
-  color:#00FF00;
+  right: 25px;
+  bottom: 25px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 50%;
+  width: 49px;
+  box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+}
+.wp a {
+  color:#4FCE5D;
+
 }
   .info{
     width: 100%;
-    
+
   }
   .wrapper{
     display: inline-flex;
     text-align: center;
     justify-content: center;
-    
+
   }
   .wrapper .icon{
     margin: 0 20px;
